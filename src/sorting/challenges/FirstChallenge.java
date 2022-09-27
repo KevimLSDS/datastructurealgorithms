@@ -2,7 +2,9 @@ package sorting.challenges;
 
 public class FirstChallenge {
 
-    // Do a merge sort in descending order
+    /*
+     * Do a merge sort in descending order
+     */
 
     public static void main(String[] args) {
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
