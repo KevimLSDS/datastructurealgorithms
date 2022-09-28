@@ -5,7 +5,7 @@ import lists.linkedlists.doubly.Employee;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class Main {
+public class JDKLinkedList {
 
     public static void main(String[] args) {
 
