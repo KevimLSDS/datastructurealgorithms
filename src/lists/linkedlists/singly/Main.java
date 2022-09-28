@@ -1,4 +1,4 @@
-package lists.linkedlists;
+package lists.linkedlists.singly;
 
 public class Main {
 
