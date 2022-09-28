@@ -10,11 +10,20 @@ public class Main {
         Employee mike = new Employee("Mike", "Wilson", 3245);
 
         EmployeeSinglyLinkedList list = new EmployeeSinglyLinkedList();
+
+        System.out.println("Is empty? " + list.isEmpty());
+
         list.addToFront(jane);
         list.addToFront(john);
         list.addToFront(mary);
         list.addToFront(mike);
 
+        System.out.println("Size: " + list.getSize());
+        list.printList();
+
+        list.removeFromFront();
+        System.out.println("\nSize after one removal: " + list.getSize());
+        System.out.println("List after one removal: ");
         list.printList();
     }
 }
